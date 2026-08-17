@@ -28,8 +28,7 @@ export interface ArmorPiece {
 	slots: number;
 	hrRequired: number;
 	elderStarRequired: number;
-	defenseBase: number;
-	defenseMax: number;
+	defense: number;
 	resistances: { fire: number; water: number; ice: number; thunder: number; dragon: number };
 	skills: { skillTree: string; points: number }[];
 	materials: { name: string; quantity: number }[];
@@ -70,8 +69,7 @@ export interface SetPiece {
 	name: string;
 	part: ArmorPart;
 	slots: number;
-	defenseBase: number;
-	defenseMax: number;
+	defense: number;
 	rarity: number;
 	hrRequired: number;
 	elderStarRequired: number;
@@ -94,8 +92,7 @@ export interface SetResult {
 	treePoints: { tree: string; points: number }[];
 	activated: ActivatedSkill[];
 	negativeActivated: ActivatedSkill[];
-	defenseSumMax: number;
-	defenseSumBase: number;
+	defenseSum: number;
 	resistanceSum: { fire: number; water: number; ice: number; thunder: number; dragon: number };
 	raritySum: number;
 	hrSum: number;

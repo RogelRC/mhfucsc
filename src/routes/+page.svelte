@@ -75,8 +75,7 @@
 	let excludedPieces = new SvelteSet<string>();
 	let excludedDecos = new SvelteSet<string>();
 	let sortBy = $state<
-		| 'defenseMax'
-		| 'defenseBase'
+		| 'defense'
 		| 'fire'
 		| 'water'
 		| 'ice'
@@ -85,12 +84,11 @@
 		| 'difficulty'
 		| 'rarity'
 		| 'slotsLeft'
-	>('defenseMax');
+	>('defense');
 	let sortDir = $state<'asc' | 'desc'>('desc');
 
 	const SORT_OPTIONS: { key: typeof sortBy; label: string }[] = [
-		{ key: 'defenseMax', label: 'Def max' },
-		{ key: 'defenseBase', label: 'Def base' },
+		{ key: 'defense', label: 'Defense' },
 		{ key: 'fire', label: 'Fire' },
 		{ key: 'water', label: 'Water' },
 		{ key: 'ice', label: 'Ice' },
@@ -102,8 +100,7 @@
 	];
 
 	const SORT_ICONS: Record<typeof sortBy, string> = {
-		defenseMax: '🛡',
-		defenseBase: '🛡',
+		defense: '🛡',
 		fire: '🔥',
 		water: '💧',
 		ice: '❄',
@@ -116,8 +113,6 @@
 
 	function sortValue(r: SetResult): number {
 		switch (sortBy) {
-			case 'defenseBase':
-				return r.defenseSumBase;
 			case 'fire':
 				return r.resistanceSum.fire;
 			case 'water':
@@ -135,7 +130,7 @@
 			case 'slotsLeft':
 				return r.slotsLeft;
 			default:
-				return r.defenseSumMax;
+				return r.defenseSum;
 		}
 	}
 

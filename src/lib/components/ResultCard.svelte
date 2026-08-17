@@ -37,10 +37,10 @@
 
 	function copyText(): string {
 		const lines: string[] = [];
-		lines.push(`MHFU Armor Set #${index + 1} — Defense ${result.defenseSumMax}`);
+		lines.push(`MHFU Armor Set #${index + 1} — Defense ${result.defenseSum}`);
 		for (const p of result.pieces) {
 			lines.push(
-				`  ${p.part}: ${p.name} [${slotsMarkup(p.slots)}] (R${p.rarity}) ${p.defenseBase}–${p.defenseMax}`
+				`  ${p.part}: ${p.name} [${slotsMarkup(p.slots)}] (R${p.rarity}) ${p.defense}`
 			);
 		}
 		lines.push(`  Weapon slots: ${result.weaponSlots}`);
@@ -100,7 +100,7 @@
 			</div>
 		</div>
 		<div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs">
-			<span class="text-sm text-zinc-300">Def {result.defenseSumMax}</span>
+			<span class="text-sm text-zinc-300">Def {result.defenseSum}</span>
 			<span class="ml-auto text-zinc-500">{open ? '▲' : '▼'}</span>
 		</div>
 	</button>
@@ -131,8 +131,8 @@
 							</td>
 							<td class="py-1 text-zinc-400">{slotsMarkup(p.slots) || '—'}</td>
 							<td class="py-1 text-right text-zinc-300">
-								{p.defenseBase}–{p.defenseMax}
-							</td>
+						{p.defense}
+					</td>
 							<td class="py-1 text-right" style="color: {rarityColor(p.rarity)}">
 								R{p.rarity}
 							</td>
@@ -144,14 +144,10 @@
 			<div class="mt-3 rounded border border-zinc-800 bg-zinc-950/50 p-2 text-xs">
 				<span class="text-zinc-500">Stats:</span>
 				<div class="mt-1 flex flex-wrap gap-x-5 gap-y-1.5">
-					<span class="text-zinc-300">
-						🛡 Def base
-						<span class="text-zinc-100"> {result.defenseSumBase}</span>
-					</span>
-					<span class="text-zinc-300">
-						🛡 Def max
-						<span class="text-zinc-100"> {result.defenseSumMax}</span>
-					</span>
+				<span class="text-zinc-300">
+					🛡 Defense
+					<span class="text-zinc-100"> {result.defenseSum}</span>
+				</span>
 					<span class="text-zinc-300">
 						💎 Rarity
 						<span style="color: {rarityColor(result.raritySum)}"> R{result.raritySum}</span>

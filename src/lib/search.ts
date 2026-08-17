@@ -29,8 +29,7 @@ export interface PreparedPiece {
 	slots: number;
 	rarity: number;
 	hrRequired: number;
-	defenseMax: number;
-	defenseBase: number;
+	defense: number;
 	torsoInc: boolean;
 	vec: number[];
 	totalPos: number;
@@ -144,16 +143,16 @@ export function buildPreparedPieces(
 				hasNeg = true;
 			}
 		}
-		const sig = `${a.part}|${torsoInc ? 'TI' : ''}${a.slots}|${vec.join(',')}${torsoInc ? `|${a.rarity}|${a.defenseMax}` : ''}`;
+		const sig = `${a.part}|${torsoInc ? 'TI' : ''}${a.slots}|${vec.join(',')}${torsoInc ? `|${a.rarity}|${a.defense}` : ''}`;
 		const prev = seenSig.get(sig);
 		if (prev) {
-			if (totalPos > prev.totalPos || (totalPos === prev.totalPos && a.defenseMax > prev.defense)) {
+			if (totalPos > prev.totalPos || (totalPos === prev.totalPos && a.defense > prev.defense)) {
 				prev.totalPos = totalPos;
-				prev.defense = a.defenseMax;
+				prev.defense = a.defense;
 			}
 			continue;
 		}
-		seenSig.set(sig, { totalPos, defense: a.defenseMax });
+		seenSig.set(sig, { totalPos, defense: a.defense });
 		piecesByPart[PARTS.indexOf(a.part)].push({
 			id,
 			name: a.name,
@@ -161,8 +160,7 @@ export function buildPreparedPieces(
 			slots: a.slots,
 			rarity: a.rarity,
 			hrRequired: a.hrRequired,
-			defenseMax: a.defenseMax,
-			defenseBase: a.defenseBase,
+			defense: a.defense,
 			torsoInc,
 			vec,
 			totalPos,
@@ -185,7 +183,7 @@ export function dominancePrune(list: PreparedPiece[]): PreparedPiece[] {
 		for (const q of list) {
 			if (q === p || q.torsoInc) continue;
 			if (q.slots < p.slots) continue;
-			if (q.defenseMax < p.defenseMax) continue;
+			if (q.defense < p.defense) continue;
 			let allGe = true;
 			for (let t = 0; t < p.vec.length; t++) {
 				if (q.vec[t] < p.vec[t]) {
@@ -193,7 +191,7 @@ export function dominancePrune(list: PreparedPiece[]): PreparedPiece[] {
 					break;
 				}
 			}
-			if (allGe && (q.slots > p.slots || q.defenseMax > p.defenseMax || q.totalPos > p.totalPos)) {
+			if (allGe && (q.slots > p.slots || q.defense > p.defense || q.totalPos > p.totalPos)) {
 				dominated = true;
 				break;
 			}
@@ -653,7 +651,7 @@ function leafCore(
 	}
 
 	let defense = 0;
-	for (const p of pieces) defense += p.defenseMax;
+	for (const p of pieces) defense += p.defense;
 
 	return { full, defense, usedSlots, decorations, torsoIncUsed };
 }
@@ -749,8 +747,7 @@ function buildResult(
 			name: orig.name,
 			part: PARTS[p.part],
 			slots: orig.slots,
-			defenseBase: orig.defenseBase,
-			defenseMax: orig.defenseMax,
+			defense: orig.defense,
 			rarity: orig.rarity,
 			hrRequired: orig.hrRequired,
 			elderStarRequired: orig.elderStarRequired,
@@ -763,13 +760,11 @@ function buildResult(
 		.map(([tree, points]) => ({ tree, points }))
 		.sort((a, b) => b.points - a.points);
 
-	let defenseBase = 0;
 	let raritySum = 0;
 	let hrSum = 0;
 	const res = { ...resMod };
 	for (const p of pieces) {
 		const orig = armors[p.id];
-		defenseBase += orig.defenseBase;
 		raritySum += orig.rarity;
 		hrSum += orig.hrRequired;
 		res.fire += orig.resistances.fire;
@@ -788,8 +783,7 @@ function buildResult(
 		treePoints,
 		activated,
 		negativeActivated,
-		defenseSumMax: defense + defenseMod,
-		defenseSumBase: defenseBase + defenseMod,
+		defenseSum: defense + defenseMod,
 		resistanceSum: res,
 		raritySum,
 		hrSum,
@@ -800,7 +794,7 @@ function buildResult(
 
 /** True when `a` ranks at least as good as `b` for the displayed top list. */
 function better(a: SetResult, b: SetResult): boolean {
-	if (a.defenseSumMax !== b.defenseSumMax) return a.defenseSumMax > b.defenseSumMax;
+	if (a.defenseSum !== b.defenseSum) return a.defenseSum > b.defenseSum;
 	if (a.totalSlots !== b.totalSlots) return a.totalSlots > b.totalSlots;
 	if (a.usedSlots !== b.usedSlots) return a.usedSlots < b.usedSlots;
 	return a.activated.length > b.activated.length;
@@ -845,7 +839,7 @@ function candidatesFor(ctx: SearchCtx, frame: Frame): PreparedPiece[] {
 				(a, b) =>
 					b.slots - a.slots ||
 					b.totalPos - b.totalNeg - (a.totalPos - a.totalNeg) ||
-					b.defenseMax - a.defenseMax
+					b.defense - a.defense
 			);
 		for (const p of slotPieces) out.push(p);
 
@@ -853,7 +847,7 @@ function candidatesFor(ctx: SearchCtx, frame: Frame): PreparedPiece[] {
 			.filter((p) => !p.torsoInc && p.slots < 2 && p.vec[hardest] <= 0)
 			.sort(
 				(a, b) =>
-					Number(a.hasNegOnSelected) - Number(b.hasNegOnSelected) || b.defenseMax - a.defenseMax
+					Number(a.hasNegOnSelected) - Number(b.hasNegOnSelected) || b.defense - a.defense
 			);
 		for (const p of rest) out.push(p);
 	} else {
@@ -861,7 +855,7 @@ function candidatesFor(ctx: SearchCtx, frame: Frame): PreparedPiece[] {
 			.filter((p) => !p.torsoInc)
 			.sort(
 				(a, b) =>
-					Number(a.hasNegOnSelected) - Number(b.hasNegOnSelected) || b.defenseMax - a.defenseMax
+					Number(a.hasNegOnSelected) - Number(b.hasNegOnSelected) || b.defense - a.defense
 			);
 		for (const p of met) out.push(p);
 	}
@@ -1011,7 +1005,7 @@ async function searchPieces(
 				// only sets that can displace the current worst are built.
 				if (
 					ctx.results.length < ctx.maxResults ||
-					core.defense >= ctx.results[ctx.results.length - 1].defenseSumMax
+					core.defense >= ctx.results[ctx.results.length - 1].defenseSum
 				) {
 					const res = buildResult(ctx, frame.pieces, frame.slots, core);
 					if (pushTop(ctx.results, res, ctx.maxResults)) {

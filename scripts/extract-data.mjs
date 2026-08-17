@@ -283,8 +283,7 @@ function extractArmors() {
 				slots,
 				hrRequired,
 				elderStarRequired,
-				defenseBase: defense,
-				defenseMax: defense, // FU doesn't have upgrade system like MHP3rd
+			defense: defense,
 				resistances: {
 					fire: fireRes,
 					water: waterRes,

@@ -155,7 +155,7 @@ function dominatedBySurvivors(p: PreparedPiece, list: PreparedPiece[]): boolean 
 	for (const q of list) {
 		if (q === p || q.torsoInc) continue;
 		if (q.slots < p.slots) continue;
-		if (q.defenseMax < p.defenseMax) continue;
+		if (q.defense < p.defense) continue;
 		let allGe = true;
 		for (let t = 0; t < p.vec.length; t++) {
 			if (q.vec[t] < p.vec[t]) {
@@ -163,7 +163,7 @@ function dominatedBySurvivors(p: PreparedPiece, list: PreparedPiece[]): boolean 
 				break;
 			}
 		}
-		if (allGe && (q.slots > p.slots || q.defenseMax > p.defenseMax || q.totalPos > p.totalPos))
+		if (allGe && (q.slots > p.slots || q.defense > p.defense || q.totalPos > p.totalPos))
 			return true;
 	}
 	return false;
