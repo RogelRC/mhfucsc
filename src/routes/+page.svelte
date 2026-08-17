@@ -8,6 +8,7 @@
 		treeCategory
 	} from '$lib/gameData';
 	import { runSearch } from '$lib/search';
+	import { onMount } from 'svelte';
 	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
 	import type {
 		ArmorPart,
@@ -210,24 +211,25 @@
 	}
 
 	let hydrated = false;
+
+	onMount(() => {
+		const t = readLS<SkillTarget[]>(LS.targets);
+		if (t && Array.isArray(t)) targetSkills = t;
+		const s = readLS<Partial<SearchSettings>>(LS.settings);
+		if (s) settings = { ...settings, ...s };
+		const hn = readLS<boolean>(LS.hideneg);
+		if (hn != null) hideNegative = hn;
+		const sb = readLS<typeof sortBy>(LS.sortby);
+		if (sb) sortBy = sb;
+		const sd = readLS<typeof sortDir>(LS.sortdir);
+		if (sd === 'asc' || sd === 'desc') sortDir = sd;
+		const h = readLS<SearchHistoryEntry[]>(LS.history);
+		if (h && Array.isArray(h)) history = h;
+		hydrated = true;
+	});
+
 	$effect(() => {
-		if (typeof window === 'undefined') return;
-		if (!hydrated) {
-			hydrated = true;
-			const t = readLS<SkillTarget[]>(LS.targets);
-			if (t && Array.isArray(t)) targetSkills = t;
-			const s = readLS<Partial<SearchSettings>>(LS.settings);
-			if (s) settings = { ...settings, ...s };
-			const hn = readLS<boolean>(LS.hideneg);
-			if (hn != null) hideNegative = hn;
-			const sb = readLS<typeof sortBy>(LS.sortby);
-			if (sb) sortBy = sb;
-			const sd = readLS<typeof sortDir>(LS.sortdir);
-			if (sd === 'asc' || sd === 'desc') sortDir = sd;
-			const h = readLS<SearchHistoryEntry[]>(LS.history);
-			if (h && Array.isArray(h)) history = h;
-			return;
-		}
+		if (!hydrated) return;
 		writeLS(LS.targets, targetSkills);
 		writeLS(LS.settings, settings);
 		writeLS(LS.hideneg, hideNegative);
