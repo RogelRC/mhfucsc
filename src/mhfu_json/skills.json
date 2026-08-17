@@ -1,0 +1,1298 @@
+[
+	{
+		"name": "Alchemy",
+		"skillTree": "Alchemy",
+		"points": 10,
+		"tag": null
+	},
+	{
+		"name": "All Resist -10",
+		"skillTree": "All Resist",
+		"points": -20,
+		"tag": "Resistance"
+	},
+	{
+		"name": "All Resist -5",
+		"skillTree": "All Resist",
+		"points": -15,
+		"tag": "Resistance"
+	},
+	{
+		"name": "All Resist -3",
+		"skillTree": "All Resist",
+		"points": -10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "All Resist +3",
+		"skillTree": "All Resist",
+		"points": 10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "All Resist +5",
+		"skillTree": "All Resist",
+		"points": 15,
+		"tag": "Resistance"
+	},
+	{
+		"name": "All Resist +10",
+		"skillTree": "All Resist",
+		"points": 20,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Steal No Effect",
+		"skillTree": "Anti-Theft",
+		"points": 10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Antiseptic",
+		"skillTree": "Antiseptic",
+		"points": 10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Sharpness +1",
+		"skillTree": "Artisan",
+		"points": 10,
+		"tag": "Offensive"
+	},
+	{
+		"name": "Attack Dwn (Large)",
+		"skillTree": "Attack",
+		"points": -20,
+		"tag": "Offensive"
+	},
+	{
+		"name": "Attack Dwn (Medium)",
+		"skillTree": "Attack",
+		"points": -15,
+		"tag": "Offensive"
+	},
+	{
+		"name": "Attack Dwn (Small)",
+		"skillTree": "Attack",
+		"points": -10,
+		"tag": "Offensive"
+	},
+	{
+		"name": "Attack Up (Small)",
+		"skillTree": "Attack",
+		"points": 10,
+		"tag": "Offensive"
+	},
+	{
+		"name": "Attack Up (Medium)",
+		"skillTree": "Attack",
+		"points": 15,
+		"tag": "Offensive"
+	},
+	{
+		"name": "Attack Up (Large)",
+		"skillTree": "Attack",
+		"points": 20,
+		"tag": "Offensive"
+	},
+	{
+		"name": "Auto-Guard",
+		"skillTree": "Auto-Guard",
+		"points": 10,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Backpacking Expert",
+		"skillTree": "Backpackng",
+		"points": 10,
+		"tag": "Treasure Hunting"
+	},
+	{
+		"name": "So-Called BBQ King",
+		"skillTree": "BBQ",
+		"points": -10,
+		"tag": null
+	},
+	{
+		"name": "BBQ Celebrity",
+		"skillTree": "BBQ",
+		"points": 10,
+		"tag": null
+	},
+	{
+		"name": "Bomber",
+		"skillTree": "BombStrUp",
+		"points": 10,
+		"tag": "Offensive"
+	},
+	{
+		"name": "Carving Iron Man",
+		"skillTree": "Carving",
+		"points": 10,
+		"tag": "Farming"
+	},
+	{
+		"name": "Carving Celebrity",
+		"skillTree": "Carving",
+		"points": 20,
+		"tag": "Farming"
+	},
+	{
+		"name": "Fire Dragon Ward",
+		"skillTree": "ChmleosRes",
+		"points": 10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Clust Lvl1 Up",
+		"skillTree": "ClustS Add",
+		"points": 10,
+		"tag": "Bowgun"
+	},
+	{
+		"name": "All Clust Lvl Up",
+		"skillTree": "ClustS Add",
+		"points": 15,
+		"tag": "Bowgun"
+	},
+	{
+		"name": "Cold Increase [Hi]",
+		"skillTree": "Cold Res",
+		"points": -15,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Cold Increase [Lo]",
+		"skillTree": "Cold Res",
+		"points": -10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Cold Elimination[Lo]",
+		"skillTree": "Cold Res",
+		"points": 10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Cold Elimination[Hi]",
+		"skillTree": "Cold Res",
+		"points": 15,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Slow Life",
+		"skillTree": "Cooking",
+		"points": -10,
+		"tag": null
+	},
+	{
+		"name": "Quick Eating",
+		"skillTree": "Cooking",
+		"points": 10,
+		"tag": null
+	},
+	{
+		"name": "Crag Lvl1 Up",
+		"skillTree": "CragS Add",
+		"points": 10,
+		"tag": "Bowgun"
+	},
+	{
+		"name": "All Crag Lvls Up",
+		"skillTree": "CragS Add",
+		"points": 15,
+		"tag": "Bowgun"
+	},
+	{
+		"name": "Chameleos Ward",
+		"skillTree": "Daora Res",
+		"points": 10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Defence -40",
+		"skillTree": "Defence",
+		"points": -20,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Defence -30",
+		"skillTree": "Defence",
+		"points": -15,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Defence -20",
+		"skillTree": "Defence",
+		"points": -10,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Defence +20",
+		"skillTree": "Defence",
+		"points": 10,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Defence +30",
+		"skillTree": "Defence",
+		"points": 15,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Defence +40",
+		"skillTree": "Defence",
+		"points": 20,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Dragon Res -10",
+		"skillTree": "Dragon Res",
+		"points": -15,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Dragon Res -5",
+		"skillTree": "Dragon Res",
+		"points": -10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Dragon Res +5",
+		"skillTree": "Dragon Res",
+		"points": 10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Dragon Res +10",
+		"skillTree": "Dragon Res",
+		"points": 15,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Unsheathed Atk Crit",
+		"skillTree": "Drawn Crit",
+		"points": 10,
+		"tag": "Blademaster"
+	},
+	{
+		"name": "Element Atk Up",
+		"skillTree": "ElementAtk",
+		"points": 10,
+		"tag": "Offensive"
+	},
+	{
+		"name": "Evade +1",
+		"skillTree": "Evade",
+		"points": 10,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Evade +2",
+		"skillTree": "Evade",
+		"points": 15,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Evade Distance Up",
+		"skillTree": "Evade Inc",
+		"points": 10,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Item Usage Decline",
+		"skillTree": "Everlastng",
+		"points": -10,
+		"tag": null
+	},
+	{
+		"name": "Item Usage Improve",
+		"skillTree": "Everlastng",
+		"points": 10,
+		"tag": null
+	},
+	{
+		"name": "Reckless Abandon-3",
+		"skillTree": "Expert",
+		"points": -20,
+		"tag": "Offensive"
+	},
+	{
+		"name": "Reckless Abandon-2",
+		"skillTree": "Expert",
+		"points": -15,
+		"tag": "Offensive"
+	},
+	{
+		"name": "Reckless Abandon-1",
+		"skillTree": "Expert",
+		"points": -10,
+		"tag": "Offensive"
+	},
+	{
+		"name": "Reckless Abandon+1",
+		"skillTree": "Expert",
+		"points": 10,
+		"tag": "Offensive"
+	},
+	{
+		"name": "Reckless Abandon+2",
+		"skillTree": "Expert",
+		"points": 15,
+		"tag": "Offensive"
+	},
+	{
+		"name": "Reckless Abandon+3",
+		"skillTree": "Expert",
+		"points": 20,
+		"tag": "Offensive"
+	},
+	{
+		"name": "Faint Duration [x2]",
+		"skillTree": "Faint",
+		"points": -10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Faint Prob Halved",
+		"skillTree": "Faint",
+		"points": 10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Faint Negated",
+		"skillTree": "Faint",
+		"points": 15,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Distraction",
+		"skillTree": "Fast Chrge",
+		"points": -10,
+		"tag": "Bow"
+	},
+	{
+		"name": "Concentration",
+		"skillTree": "Fast Chrge",
+		"points": 10,
+		"tag": "Bow"
+	},
+	{
+		"name": "Calamity",
+		"skillTree": "Fate",
+		"points": -20,
+		"tag": "Farming"
+	},
+	{
+		"name": "Bad Luck",
+		"skillTree": "Fate",
+		"points": -10,
+		"tag": "Farming"
+	},
+	{
+		"name": "Good Luck",
+		"skillTree": "Fate",
+		"points": 10,
+		"tag": "Farming"
+	},
+	{
+		"name": "Luck Booster",
+		"skillTree": "Fate",
+		"points": 15,
+		"tag": "Farming"
+	},
+	{
+		"name": "Fatigue Cancellation",
+		"skillTree": "Fatigue",
+		"points": 10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "ESP",
+		"skillTree": "Fencing",
+		"points": 10,
+		"tag": "Blademaster"
+	},
+	{
+		"name": "Fire Resist -10",
+		"skillTree": "Fire Res",
+		"points": -15,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Fire Resist -5",
+		"skillTree": "Fire Res",
+		"points": -10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Fire Resist +5",
+		"skillTree": "Fire Res",
+		"points": 10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Fire Resist +10",
+		"skillTree": "Fire Res",
+		"points": 15,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Daora Ward",
+		"skillTree": "FireDrgRes",
+		"points": 10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Fishing Expert",
+		"skillTree": "Fishing",
+		"points": 10,
+		"tag": "Treasure Hunting"
+	},
+	{
+		"name": "Felyne Attack Up",
+		"skillTree": "Flyne Atk",
+		"points": 10,
+		"tag": null
+	},
+	{
+		"name": "Felyne Defence Up",
+		"skillTree": "Flyne Def",
+		"points": 10,
+		"tag": null
+	},
+	{
+		"name": "Felyne Tutor",
+		"skillTree": "FlyneGuide",
+		"points": 10,
+		"tag": null
+	},
+	{
+		"name": "Felyne Mentor",
+		"skillTree": "FlyneGuide",
+		"points": 15,
+		"tag": null
+	},
+	{
+		"name": "Gathering -2",
+		"skillTree": "Gathering",
+		"points": -15,
+		"tag": "Treasure Hunting"
+	},
+	{
+		"name": "Gathering -1",
+		"skillTree": "Gathering",
+		"points": -10,
+		"tag": "Treasure Hunting"
+	},
+	{
+		"name": "Gathering +1",
+		"skillTree": "Gathering",
+		"points": 10,
+		"tag": "Treasure Hunting"
+	},
+	{
+		"name": "Gathering +2",
+		"skillTree": "Gathering",
+		"points": 15,
+		"tag": "Treasure Hunting"
+	},
+	{
+		"name": "Filled Up",
+		"skillTree": "Gluttony",
+		"points": 10,
+		"tag": null
+	},
+	{
+		"name": "Picky Eater",
+		"skillTree": "Gluttony",
+		"points": 15,
+		"tag": null
+	},
+	{
+		"name": "Guard -2",
+		"skillTree": "Guard",
+		"points": -20,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Guard -1",
+		"skillTree": "Guard",
+		"points": -10,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Guard +1",
+		"skillTree": "Guard",
+		"points": 10,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Guard +2",
+		"skillTree": "Guard",
+		"points": 20,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Guard Inc",
+		"skillTree": "Guard Up",
+		"points": 10,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Gunnery Master",
+		"skillTree": "Gunnery",
+		"points": 10,
+		"tag": "Offensive"
+	},
+	{
+		"name": "Gunnery King",
+		"skillTree": "Gunnery",
+		"points": 15,
+		"tag": "Offensive"
+	},
+	{
+		"name": "Health -30",
+		"skillTree": "Health",
+		"points": -20,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Health -20",
+		"skillTree": "Health",
+		"points": -15,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Health -10",
+		"skillTree": "Health",
+		"points": -10,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Health +20",
+		"skillTree": "Health",
+		"points": 10,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Health +30",
+		"skillTree": "Health",
+		"points": 15,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Health +50",
+		"skillTree": "Health",
+		"points": 20,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Earplug",
+		"skillTree": "HearProtct",
+		"points": 10,
+		"tag": "Defensive"
+	},
+	{
+		"name": "High Grade Earplug",
+		"skillTree": "HearProtct",
+		"points": 15,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Heat Inc [Hi]",
+		"skillTree": "Heat Res",
+		"points": -15,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Heat Inc [Lo]",
+		"skillTree": "Heat Res",
+		"points": -10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Heat Cancel [Lo]",
+		"skillTree": "Heat Res",
+		"points": 10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Heat Cancel [Hi]",
+		"skillTree": "Heat Res",
+		"points": 15,
+		"tag": "Resistance"
+	},
+	{
+		"name": "High Speed Gathering",
+		"skillTree": "HiSpdGathr",
+		"points": 10,
+		"tag": "Treasure Hunting"
+	},
+	{
+		"name": "Flute Expert",
+		"skillTree": "Horn",
+		"points": 10,
+		"tag": "Blademaster"
+	},
+	{
+		"name": "Hunger Increase [Hi]",
+		"skillTree": "Hunger",
+		"points": -15,
+		"tag": null
+	},
+	{
+		"name": "Hunger Increase [Lo]",
+		"skillTree": "Hunger",
+		"points": -10,
+		"tag": null
+	},
+	{
+		"name": "Hunger Halved",
+		"skillTree": "Hunger",
+		"points": 10,
+		"tag": null
+	},
+	{
+		"name": "Hunger Negated",
+		"skillTree": "Hunger",
+		"points": 15,
+		"tag": null
+	},
+	{
+		"name": "Ice Res -10",
+		"skillTree": "Ice Res",
+		"points": -15,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Ice Res -5",
+		"skillTree": "Ice Res",
+		"points": -10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Ice Res +5",
+		"skillTree": "Ice Res",
+		"points": 10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Ice Res +10",
+		"skillTree": "Ice Res",
+		"points": 15,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Reloading Speed -3",
+		"skillTree": "Load",
+		"points": -20,
+		"tag": "Bowgun"
+	},
+	{
+		"name": "Reloading Speed -2",
+		"skillTree": "Load",
+		"points": -15,
+		"tag": "Bowgun"
+	},
+	{
+		"name": "Reloading Speed -1",
+		"skillTree": "Load",
+		"points": -10,
+		"tag": "Bowgun"
+	},
+	{
+		"name": "Reloading Speed +1",
+		"skillTree": "Load",
+		"points": 10,
+		"tag": "Bowgun"
+	},
+	{
+		"name": "Reloading Speed +2",
+		"skillTree": "Load",
+		"points": 15,
+		"tag": "Bowgun"
+	},
+	{
+		"name": "Reloading Speed +3",
+		"skillTree": "Load",
+		"points": 20,
+		"tag": "Bowgun"
+	},
+	{
+		"name": "Load Up",
+		"skillTree": "Loading",
+		"points": 10,
+		"tag": "Offensive"
+	},
+	{
+		"name": "Map Unavailable",
+		"skillTree": "Map",
+		"points": -10,
+		"tag": null
+	},
+	{
+		"name": "Farsight",
+		"skillTree": "Map",
+		"points": 10,
+		"tag": null
+	},
+	{
+		"name": "Shot Damage Up",
+		"skillTree": "Marksman",
+		"points": 10,
+		"tag": "Bowgun"
+	},
+	{
+		"name": "Combine Success -15%",
+		"skillTree": "MixSucRate",
+		"points": -20,
+		"tag": null
+	},
+	{
+		"name": "Combine Success -10%",
+		"skillTree": "MixSucRate",
+		"points": -15,
+		"tag": null
+	},
+	{
+		"name": "Combine Success -5%",
+		"skillTree": "MixSucRate",
+		"points": -10,
+		"tag": null
+	},
+	{
+		"name": "Combine Success +15%",
+		"skillTree": "MixSucRate",
+		"points": 10,
+		"tag": null
+	},
+	{
+		"name": "Combine Success +25%",
+		"skillTree": "MixSucRate",
+		"points": 15,
+		"tag": null
+	},
+	{
+		"name": "Combine Success +45%",
+		"skillTree": "MixSucRate",
+		"points": 20,
+		"tag": null
+	},
+	{
+		"name": "NormalS/RapidBow Up",
+		"skillTree": "NormalS Up",
+		"points": 10,
+		"tag": "Bowgun"
+	},
+	{
+		"name": "All Shots Up",
+		"skillTree": "NormalSAdd",
+		"points": 10,
+		"tag": "Bowgun"
+	},
+	{
+		"name": "Eagle Eye",
+		"skillTree": "Observance",
+		"points": 10,
+		"tag": "Farming"
+	},
+	{
+		"name": "Paralysis Coat Add",
+		"skillTree": "Para CtAdd",
+		"points": 10,
+		"tag": "Bow"
+	},
+	{
+		"name": "Para Duration[x2]",
+		"skillTree": "Paralysis",
+		"points": -10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Para Duration Halved",
+		"skillTree": "Paralysis",
+		"points": 10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Paralysis Negated",
+		"skillTree": "Paralysis",
+		"points": 15,
+		"tag": "Resistance"
+	},
+	{
+		"name": "PelletS/ScattrBow Up",
+		"skillTree": "PelletS Up",
+		"points": 10,
+		"tag": "Bowgun"
+	},
+	{
+		"name": "Scatter Lvl1 Up",
+		"skillTree": "PelletSAdd",
+		"points": 10,
+		"tag": "Bowgun"
+	},
+	{
+		"name": "All Scatter Lvls Up",
+		"skillTree": "PelletSAdd",
+		"points": 15,
+		"tag": "Bowgun"
+	},
+	{
+		"name": "PierceS/PierceBow Up",
+		"skillTree": "PierceS Up",
+		"points": 10,
+		"tag": "Bowgun"
+	},
+	{
+		"name": "Pierce S LV1 Add",
+		"skillTree": "PierceSAdd",
+		"points": 10,
+		"tag": "Bowgun"
+	},
+	{
+		"name": "All Pierce Lvls Up",
+		"skillTree": "PierceSAdd",
+		"points": 15,
+		"tag": "Bowgun"
+	},
+	{
+		"name": "Poison Coat Add",
+		"skillTree": "PoisnCtAdd",
+		"points": 10,
+		"tag": "Bow"
+	},
+	{
+		"name": "Poison Duration[x2]",
+		"skillTree": "Poison",
+		"points": -10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Poison Dur Halved",
+		"skillTree": "Poison",
+		"points": 10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Poison Negated",
+		"skillTree": "Poison",
+		"points": 15,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Worry",
+		"skillTree": "Potential",
+		"points": -10,
+		"tag": "Offensive"
+	},
+	{
+		"name": "Adrenaline +1",
+		"skillTree": "Potential",
+		"points": 10,
+		"tag": "Offensive"
+	},
+	{
+		"name": "Adrenaline +2",
+		"skillTree": "Potential",
+		"points": 15,
+		"tag": "Offensive"
+	},
+	{
+		"name": "Power Coat Add",
+		"skillTree": "PowerCtAdd",
+		"points": 10,
+		"tag": "Bow"
+	},
+	{
+		"name": "Target Range Up",
+		"skillTree": "Precision",
+		"points": -10,
+		"tag": "Bowgun"
+	},
+	{
+		"name": "Target Range Down",
+		"skillTree": "Precision",
+		"points": 10,
+		"tag": "Bowgun"
+	},
+	{
+		"name": "Demonic Protection",
+		"skillTree": "Protection",
+		"points": -10,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Divine Protection",
+		"skillTree": "Protection",
+		"points": 10,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Detect",
+		"skillTree": "PsychicVis",
+		"points": 10,
+		"tag": null
+	},
+	{
+		"name": "Autotracker",
+		"skillTree": "PsychicVis",
+		"points": 15,
+		"tag": null
+	},
+	{
+		"name": "Quake Res",
+		"skillTree": "Quake Res",
+		"points": 10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Rampage",
+		"skillTree": "Rage",
+		"points": 10,
+		"tag": "Offensive"
+	},
+	{
+		"name": "Razor Coat Add",
+		"skillTree": "RazorCtAdd",
+		"points": 10,
+		"tag": "Bow"
+	},
+	{
+		"name": "Damage Rec Speed -2",
+		"skillTree": "Rec Speed",
+		"points": -20,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Damage Rec Speed -1",
+		"skillTree": "Rec Speed",
+		"points": -10,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Damage Rec Speed +1",
+		"skillTree": "Rec Speed",
+		"points": 10,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Damage Rec Speed +2",
+		"skillTree": "Rec Speed",
+		"points": 20,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Recoil Reduction +1",
+		"skillTree": "Recoil",
+		"points": 10,
+		"tag": "Bowgun"
+	},
+	{
+		"name": "Recoil Reduction +2",
+		"skillTree": "Recoil",
+		"points": 20,
+		"tag": "Bowgun"
+	},
+	{
+		"name": "HealthRecItemsWeak",
+		"skillTree": "Recovery",
+		"points": -10,
+		"tag": "Defensive"
+	},
+	{
+		"name": "HealthRecItemsImprvd",
+		"skillTree": "Recovery",
+		"points": 10,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Trap Expert",
+		"skillTree": "Set Trap",
+		"points": 10,
+		"tag": null
+	},
+	{
+		"name": "Blunt Edge",
+		"skillTree": "Sharpness",
+		"points": -10,
+		"tag": "Blademaster"
+	},
+	{
+		"name": "Sharp Sword",
+		"skillTree": "Sharpness",
+		"points": 10,
+		"tag": "Blademaster"
+	},
+	{
+		"name": "Bullet Limit",
+		"skillTree": "Shot Mix",
+		"points": 10,
+		"tag": "Bowgun"
+	},
+	{
+		"name": "Sleep Duration[x2]",
+		"skillTree": "Sleep",
+		"points": -10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Sleep Dur Halved",
+		"skillTree": "Sleep",
+		"points": 10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Sleep Negated",
+		"skillTree": "Sleep",
+		"points": 15,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Sleep Coat Add",
+		"skillTree": "SleepCtAdd",
+		"points": 10,
+		"tag": "Bow"
+	},
+	{
+		"name": "Taunt",
+		"skillTree": "Sneak",
+		"points": -10,
+		"tag": null
+	},
+	{
+		"name": "Stealth",
+		"skillTree": "Sneak",
+		"points": 10,
+		"tag": null
+	},
+	{
+		"name": "Snow Res",
+		"skillTree": "Snow Res",
+		"points": 10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Abnormal Sts Atk Up",
+		"skillTree": "Spc Attack",
+		"points": 10,
+		"tag": "Offensive"
+	},
+	{
+		"name": "Speed Fire",
+		"skillTree": "Speed Fire",
+		"points": 10,
+		"tag": "Bowgun"
+	},
+	{
+		"name": "Flat Footed",
+		"skillTree": "Stamina",
+		"points": -10,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Runner",
+		"skillTree": "Stamina",
+		"points": 10,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Abnormal Sts Negated",
+		"skillTree": "Status Res",
+		"points": 10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Survival",
+		"skillTree": "Survival",
+		"points": 10,
+		"tag": "Defensive"
+	},
+	{
+		"name": "True Strike",
+		"skillTree": "SwdMastery",
+		"points": 10,
+		"tag": "Blademaster"
+	},
+	{
+		"name": "Sharpening Skl Halved",
+		"skillTree": "SwdShrpner",
+		"points": -10,
+		"tag": "Blademaster"
+	},
+	{
+		"name": "Sharpening Skl Inc",
+		"skillTree": "SwdShrpner",
+		"points": 10,
+		"tag": "Blademaster"
+	},
+	{
+		"name": "Defensive Maneuvers -2",
+		"skillTree": "Technique",
+		"points": -15,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Defensive Maneuvers -1",
+		"skillTree": "Technique",
+		"points": -10,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Defensive Maneuvers +1",
+		"skillTree": "Technique",
+		"points": 10,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Defensive Maneuvers +2",
+		"skillTree": "Technique",
+		"points": 15,
+		"tag": "Defensive"
+	},
+	{
+		"name": "TerrainDamageInc[Hi]",
+		"skillTree": "Terrain",
+		"points": -15,
+		"tag": "Resistance"
+	},
+	{
+		"name": "TerrainDamageInc[Lo]",
+		"skillTree": "Terrain",
+		"points": -10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "TrrainDmgeReduce[Lo]",
+		"skillTree": "Terrain",
+		"points": 10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "TrrainDmgeReduce[Hi]",
+		"skillTree": "Terrain",
+		"points": 15,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Throwing Skill Up",
+		"skillTree": "Throw",
+		"points": 10,
+		"tag": null
+	},
+	{
+		"name": "Thunder Res -10",
+		"skillTree": "ThunderRes",
+		"points": -15,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Thunder Res -5",
+		"skillTree": "ThunderRes",
+		"points": -10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Thunder Res +5",
+		"skillTree": "ThunderRes",
+		"points": 10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Thunder Res +10",
+		"skillTree": "ThunderRes",
+		"points": 15,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Reward Specialist",
+		"skillTree": "Trapper",
+		"points": 10,
+		"tag": "Farming"
+	},
+	{
+		"name": "Reward Celebrity",
+		"skillTree": "Trapper",
+		"points": 15,
+		"tag": "Farming"
+	},
+	{
+		"name": "Water Res -10",
+		"skillTree": "Water Res",
+		"points": -15,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Water Res -5",
+		"skillTree": "Water Res",
+		"points": -10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Water Res +5",
+		"skillTree": "Water Res",
+		"points": 10,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Water Res +10",
+		"skillTree": "Water Res",
+		"points": 15,
+		"tag": "Resistance"
+	},
+	{
+		"name": "Demon Whim",
+		"skillTree": "Whim",
+		"points": -15,
+		"tag": "Treasure Hunting"
+	},
+	{
+		"name": "Spectre's Whim",
+		"skillTree": "Whim",
+		"points": -10,
+		"tag": "Treasure Hunting"
+	},
+	{
+		"name": "Divine Whim",
+		"skillTree": "Whim",
+		"points": 10,
+		"tag": "Treasure Hunting"
+	},
+	{
+		"name": "Spirit's Whim",
+		"skillTree": "Whim",
+		"points": 15,
+		"tag": "Treasure Hunting"
+	},
+	{
+		"name": "Wide Area +1",
+		"skillTree": "Wide Area",
+		"points": 10,
+		"tag": null
+	},
+	{
+		"name": "Wide Area +2",
+		"skillTree": "Wide Area",
+		"points": 20,
+		"tag": null
+	},
+	{
+		"name": "Low Wind Res",
+		"skillTree": "WindPress",
+		"points": 10,
+		"tag": "Defensive"
+	},
+	{
+		"name": "High Wind Res",
+		"skillTree": "WindPress",
+		"points": 15,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Dragon Wind Breaker",
+		"skillTree": "WindPress",
+		"points": 20,
+		"tag": "Defensive"
+	}
+]

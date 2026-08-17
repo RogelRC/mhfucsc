@@ -1,0 +1,1360 @@
+[
+	{
+		"name": "Attack",
+		"skills": [
+			{
+				"name": "Attack Dwn (Large)",
+				"points": -20
+			},
+			{
+				"name": "Attack Dwn (Medium)",
+				"points": -15
+			},
+			{
+				"name": "Attack Dwn (Small)",
+				"points": -10
+			},
+			{
+				"name": "Attack Up (Small)",
+				"points": 10
+			},
+			{
+				"name": "Attack Up (Medium)",
+				"points": 15
+			},
+			{
+				"name": "Attack Up (Large)",
+				"points": 20
+			}
+		]
+	},
+	{
+		"name": "Defence",
+		"skills": [
+			{
+				"name": "Defence -40",
+				"points": -20
+			},
+			{
+				"name": "Defence -30",
+				"points": -15
+			},
+			{
+				"name": "Defence -20",
+				"points": -10
+			},
+			{
+				"name": "Defence +20",
+				"points": 10
+			},
+			{
+				"name": "Defence +30",
+				"points": 15
+			},
+			{
+				"name": "Defence +40",
+				"points": 20
+			}
+		]
+	},
+	{
+		"name": "Health",
+		"skills": [
+			{
+				"name": "Health -30",
+				"points": -20
+			},
+			{
+				"name": "Health -20",
+				"points": -15
+			},
+			{
+				"name": "Health -10",
+				"points": -10
+			},
+			{
+				"name": "Health +20",
+				"points": 10
+			},
+			{
+				"name": "Health +30",
+				"points": 15
+			},
+			{
+				"name": "Health +50",
+				"points": 20
+			}
+		]
+	},
+	{
+		"name": "All Resist",
+		"skills": [
+			{
+				"name": "All Resist -10",
+				"points": -20
+			},
+			{
+				"name": "All Resist -5",
+				"points": -15
+			},
+			{
+				"name": "All Resist -3",
+				"points": -10
+			},
+			{
+				"name": "All Resist +3",
+				"points": 10
+			},
+			{
+				"name": "All Resist +5",
+				"points": 15
+			},
+			{
+				"name": "All Resist +10",
+				"points": 20
+			}
+		]
+	},
+	{
+		"name": "Ice Res",
+		"skills": [
+			{
+				"name": "Ice Res -10",
+				"points": -15
+			},
+			{
+				"name": "Ice Res -5",
+				"points": -10
+			},
+			{
+				"name": "Ice Res +5",
+				"points": 10
+			},
+			{
+				"name": "Ice Res +10",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "Water Res",
+		"skills": [
+			{
+				"name": "Water Res -10",
+				"points": -15
+			},
+			{
+				"name": "Water Res -5",
+				"points": -10
+			},
+			{
+				"name": "Water Res +5",
+				"points": 10
+			},
+			{
+				"name": "Water Res +10",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "ThunderRes",
+		"skills": [
+			{
+				"name": "Thunder Res -10",
+				"points": -15
+			},
+			{
+				"name": "Thunder Res -5",
+				"points": -10
+			},
+			{
+				"name": "Thunder Res +5",
+				"points": 10
+			},
+			{
+				"name": "Thunder Res +10",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "Dragon Res",
+		"skills": [
+			{
+				"name": "Dragon Res -10",
+				"points": -15
+			},
+			{
+				"name": "Dragon Res -5",
+				"points": -10
+			},
+			{
+				"name": "Dragon Res +5",
+				"points": 10
+			},
+			{
+				"name": "Dragon Res +10",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "Fire Res",
+		"skills": [
+			{
+				"name": "Fire Resist -10",
+				"points": -15
+			},
+			{
+				"name": "Fire Resist -5",
+				"points": -10
+			},
+			{
+				"name": "Fire Resist +5",
+				"points": 10
+			},
+			{
+				"name": "Fire Resist +10",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "Faint",
+		"skills": [
+			{
+				"name": "Faint Duration [x2]",
+				"points": -10
+			},
+			{
+				"name": "Faint Prob Halved",
+				"points": 10
+			},
+			{
+				"name": "Faint Negated",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "Poison",
+		"skills": [
+			{
+				"name": "Poison Duration[x2]",
+				"points": -10
+			},
+			{
+				"name": "Poison Dur Halved",
+				"points": 10
+			},
+			{
+				"name": "Poison Negated",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "Paralysis",
+		"skills": [
+			{
+				"name": "Para Duration[x2]",
+				"points": -10
+			},
+			{
+				"name": "Para Duration Halved",
+				"points": 10
+			},
+			{
+				"name": "Paralysis Negated",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "Sleep",
+		"skills": [
+			{
+				"name": "Sleep Duration[x2]",
+				"points": -10
+			},
+			{
+				"name": "Sleep Dur Halved",
+				"points": 10
+			},
+			{
+				"name": "Sleep Negated",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "Antiseptic",
+		"skills": [
+			{
+				"name": "Antiseptic",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Fatigue",
+		"skills": [
+			{
+				"name": "Fatigue Cancellation",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Snow Res",
+		"skills": [
+			{
+				"name": "Snow Res",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Quake Res",
+		"skills": [
+			{
+				"name": "Quake Res",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "HearProtct",
+		"skills": [
+			{
+				"name": "Earplug",
+				"points": 10
+			},
+			{
+				"name": "High Grade Earplug",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "WindPress",
+		"skills": [
+			{
+				"name": "Low Wind Res",
+				"points": 10
+			},
+			{
+				"name": "High Wind Res",
+				"points": 15
+			},
+			{
+				"name": "Dragon Wind Breaker",
+				"points": 20
+			}
+		]
+	},
+	{
+		"name": "Anti-Theft",
+		"skills": [
+			{
+				"name": "Steal No Effect",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Status Res",
+		"skills": [
+			{
+				"name": "Abnormal Sts Negated",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "FireDrgRes",
+		"skills": [
+			{
+				"name": "Daora Ward",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Daora Res",
+		"skills": [
+			{
+				"name": "Chameleos Ward",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "ChmleosRes",
+		"skills": [
+			{
+				"name": "Fire Dragon Ward",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Artisan",
+		"skills": [
+			{
+				"name": "Sharpness +1",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Sharpness",
+		"skills": [
+			{
+				"name": "Blunt Edge",
+				"points": -10
+			},
+			{
+				"name": "Sharp Sword",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Fencing",
+		"skills": [
+			{
+				"name": "ESP",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "SwdShrpner",
+		"skills": [
+			{
+				"name": "Sharpening Skl Halved",
+				"points": -10
+			},
+			{
+				"name": "Sharpening Skl Inc",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Guard",
+		"skills": [
+			{
+				"name": "Guard -2",
+				"points": -20
+			},
+			{
+				"name": "Guard -1",
+				"points": -10
+			},
+			{
+				"name": "Guard +1",
+				"points": 10
+			},
+			{
+				"name": "Guard +2",
+				"points": 20
+			}
+		]
+	},
+	{
+		"name": "Auto-Guard",
+		"skills": [
+			{
+				"name": "Auto-Guard",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Drawn Crit",
+		"skills": [
+			{
+				"name": "Unsheathed Atk Crit",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "SwdMastery",
+		"skills": [
+			{
+				"name": "True Strike",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "NormalS Up",
+		"skills": [
+			{
+				"name": "NormalS/RapidBow Up",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "PierceS Up",
+		"skills": [
+			{
+				"name": "PierceS/PierceBow Up",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "PelletS Up",
+		"skills": [
+			{
+				"name": "PelletS/ScattrBow Up",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "NormalSAdd",
+		"skills": [
+			{
+				"name": "All Shots Up",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "PierceSAdd",
+		"skills": [
+			{
+				"name": "Pierce S LV1 Add",
+				"points": 10
+			},
+			{
+				"name": "All Pierce Lvls Up",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "PelletSAdd",
+		"skills": [
+			{
+				"name": "Scatter Lvl1 Up",
+				"points": 10
+			},
+			{
+				"name": "All Scatter Lvls Up",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "CragS Add",
+		"skills": [
+			{
+				"name": "Crag Lvl1 Up",
+				"points": 10
+			},
+			{
+				"name": "All Crag Lvls Up",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "ClustS Add",
+		"skills": [
+			{
+				"name": "Clust Lvl1 Up",
+				"points": 10
+			},
+			{
+				"name": "All Clust Lvl Up",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "Load",
+		"skills": [
+			{
+				"name": "Reloading Speed -3",
+				"points": -20
+			},
+			{
+				"name": "Reloading Speed -2",
+				"points": -15
+			},
+			{
+				"name": "Reloading Speed -1",
+				"points": -10
+			},
+			{
+				"name": "Reloading Speed +1",
+				"points": 10
+			},
+			{
+				"name": "Reloading Speed +2",
+				"points": 15
+			},
+			{
+				"name": "Reloading Speed +3",
+				"points": 20
+			}
+		]
+	},
+	{
+		"name": "Speed Fire",
+		"skills": [
+			{
+				"name": "Speed Fire",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Recoil",
+		"skills": [
+			{
+				"name": "Recoil Reduction +1",
+				"points": 10
+			},
+			{
+				"name": "Recoil Reduction +2",
+				"points": 20
+			}
+		]
+	},
+	{
+		"name": "Precision",
+		"skills": [
+			{
+				"name": "Target Range Up",
+				"points": -10
+			},
+			{
+				"name": "Target Range Down",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "PoisnCtAdd",
+		"skills": [
+			{
+				"name": "Poison Coat Add",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Para CtAdd",
+		"skills": [
+			{
+				"name": "Paralysis Coat Add",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "SleepCtAdd",
+		"skills": [
+			{
+				"name": "Sleep Coat Add",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "PowerCtAdd",
+		"skills": [
+			{
+				"name": "Power Coat Add",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "RazorCtAdd",
+		"skills": [
+			{
+				"name": "Razor Coat Add",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Marksman",
+		"skills": [
+			{
+				"name": "Shot Damage Up",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Expert",
+		"skills": [
+			{
+				"name": "Reckless Abandon-3",
+				"points": -20
+			},
+			{
+				"name": "Reckless Abandon-2",
+				"points": -15
+			},
+			{
+				"name": "Reckless Abandon-1",
+				"points": -10
+			},
+			{
+				"name": "Reckless Abandon+1",
+				"points": 10
+			},
+			{
+				"name": "Reckless Abandon+2",
+				"points": 15
+			},
+			{
+				"name": "Reckless Abandon+3",
+				"points": 20
+			}
+		]
+	},
+	{
+		"name": "Spc Attack",
+		"skills": [
+			{
+				"name": "Abnormal Sts Atk Up",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "ElementAtk",
+		"skills": [
+			{
+				"name": "Element Atk Up",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Rec Speed",
+		"skills": [
+			{
+				"name": "Damage Rec Speed -2",
+				"points": -20
+			},
+			{
+				"name": "Damage Rec Speed -1",
+				"points": -10
+			},
+			{
+				"name": "Damage Rec Speed +1",
+				"points": 10
+			},
+			{
+				"name": "Damage Rec Speed +2",
+				"points": 20
+			}
+		]
+	},
+	{
+		"name": "Protection",
+		"skills": [
+			{
+				"name": "Demonic Protection",
+				"points": -10
+			},
+			{
+				"name": "Divine Protection",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Guard Up",
+		"skills": [
+			{
+				"name": "Guard Inc",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Evade",
+		"skills": [
+			{
+				"name": "Evade +1",
+				"points": 10
+			},
+			{
+				"name": "Evade +2",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "Evade Inc",
+		"skills": [
+			{
+				"name": "Evade Distance Up",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Potential",
+		"skills": [
+			{
+				"name": "Worry",
+				"points": -10
+			},
+			{
+				"name": "Adrenaline +1",
+				"points": 10
+			},
+			{
+				"name": "Adrenaline +2",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "Gunnery",
+		"skills": [
+			{
+				"name": "Gunnery Master",
+				"points": 10
+			},
+			{
+				"name": "Gunnery King",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "Loading",
+		"skills": [
+			{
+				"name": "Load Up",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Fast Chrge",
+		"skills": [
+			{
+				"name": "Distraction",
+				"points": -10
+			},
+			{
+				"name": "Concentration",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Survival",
+		"skills": [
+			{
+				"name": "Survival",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Rage",
+		"skills": [
+			{
+				"name": "Rampage",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Map",
+		"skills": [
+			{
+				"name": "Map Unavailable",
+				"points": -10
+			},
+			{
+				"name": "Farsight",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "PsychicVis",
+		"skills": [
+			{
+				"name": "Detect",
+				"points": 10
+			},
+			{
+				"name": "Autotracker",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "Gathering",
+		"skills": [
+			{
+				"name": "Gathering -2",
+				"points": -15
+			},
+			{
+				"name": "Gathering -1",
+				"points": -10
+			},
+			{
+				"name": "Gathering +1",
+				"points": 10
+			},
+			{
+				"name": "Gathering +2",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "Carving",
+		"skills": [
+			{
+				"name": "Carving Iron Man",
+				"points": 10
+			},
+			{
+				"name": "Carving Celebrity",
+				"points": 20
+			}
+		]
+	},
+	{
+		"name": "HiSpdGathr",
+		"skills": [
+			{
+				"name": "High Speed Gathering",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Backpackng",
+		"skills": [
+			{
+				"name": "Backpacking Expert",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Whim",
+		"skills": [
+			{
+				"name": "Demon Whim",
+				"points": -15
+			},
+			{
+				"name": "Spectre's Whim",
+				"points": -10
+			},
+			{
+				"name": "Divine Whim",
+				"points": 10
+			},
+			{
+				"name": "Spirit's Whim",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "Fishing",
+		"skills": [
+			{
+				"name": "Fishing Expert",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Heat Res",
+		"skills": [
+			{
+				"name": "Heat Inc [Hi]",
+				"points": -15
+			},
+			{
+				"name": "Heat Inc [Lo]",
+				"points": -10
+			},
+			{
+				"name": "Heat Cancel [Lo]",
+				"points": 10
+			},
+			{
+				"name": "Heat Cancel [Hi]",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "Cold Res",
+		"skills": [
+			{
+				"name": "Cold Increase [Hi]",
+				"points": -15
+			},
+			{
+				"name": "Cold Increase [Lo]",
+				"points": -10
+			},
+			{
+				"name": "Cold Elimination[Lo]",
+				"points": 10
+			},
+			{
+				"name": "Cold Elimination[Hi]",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "Terrain",
+		"skills": [
+			{
+				"name": "TerrainDamageInc[Hi]",
+				"points": -15
+			},
+			{
+				"name": "TerrainDamageInc[Lo]",
+				"points": -10
+			},
+			{
+				"name": "TrrainDmgeReduce[Lo]",
+				"points": 10
+			},
+			{
+				"name": "TrrainDmgeReduce[Hi]",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "Stamina",
+		"skills": [
+			{
+				"name": "Flat Footed",
+				"points": -10
+			},
+			{
+				"name": "Runner",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Technique",
+		"skills": [
+			{
+				"name": "Defensive Maneuvers -2",
+				"points": -15
+			},
+			{
+				"name": "Defensive Maneuvers -1",
+				"points": -10
+			},
+			{
+				"name": "Defensive Maneuvers +1",
+				"points": 10
+			},
+			{
+				"name": "Defensive Maneuvers +2",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "Hunger",
+		"skills": [
+			{
+				"name": "Hunger Increase [Hi]",
+				"points": -15
+			},
+			{
+				"name": "Hunger Increase [Lo]",
+				"points": -10
+			},
+			{
+				"name": "Hunger Halved",
+				"points": 10
+			},
+			{
+				"name": "Hunger Negated",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "Sneak",
+		"skills": [
+			{
+				"name": "Taunt",
+				"points": -10
+			},
+			{
+				"name": "Stealth",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Fate",
+		"skills": [
+			{
+				"name": "Calamity",
+				"points": -20
+			},
+			{
+				"name": "Bad Luck",
+				"points": -10
+			},
+			{
+				"name": "Good Luck",
+				"points": 10
+			},
+			{
+				"name": "Luck Booster",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "Set Trap",
+		"skills": [
+			{
+				"name": "Trap Expert",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Trapper",
+		"skills": [
+			{
+				"name": "Reward Specialist",
+				"points": 10
+			},
+			{
+				"name": "Reward Celebrity",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "Observance",
+		"skills": [
+			{
+				"name": "Eagle Eye",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Recovery",
+		"skills": [
+			{
+				"name": "HealthRecItemsWeak",
+				"points": -10
+			},
+			{
+				"name": "HealthRecItemsImprvd",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Everlastng",
+		"skills": [
+			{
+				"name": "Item Usage Decline",
+				"points": -10
+			},
+			{
+				"name": "Item Usage Improve",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Wide Area",
+		"skills": [
+			{
+				"name": "Wide Area +1",
+				"points": 10
+			},
+			{
+				"name": "Wide Area +2",
+				"points": 20
+			}
+		]
+	},
+	{
+		"name": "Throw",
+		"skills": [
+			{
+				"name": "Throwing Skill Up",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "BombStrUp",
+		"skills": [
+			{
+				"name": "Bomber",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Gluttony",
+		"skills": [
+			{
+				"name": "Filled Up",
+				"points": 10
+			},
+			{
+				"name": "Picky Eater",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "Cooking",
+		"skills": [
+			{
+				"name": "Slow Life",
+				"points": -10
+			},
+			{
+				"name": "Quick Eating",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "BBQ",
+		"skills": [
+			{
+				"name": "So-Called BBQ King",
+				"points": -10
+			},
+			{
+				"name": "BBQ Celebrity",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Horn",
+		"skills": [
+			{
+				"name": "Flute Expert",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "MixSucRate",
+		"skills": [
+			{
+				"name": "Combine Success -15%",
+				"points": -20
+			},
+			{
+				"name": "Combine Success -10%",
+				"points": -15
+			},
+			{
+				"name": "Combine Success -5%",
+				"points": -10
+			},
+			{
+				"name": "Combine Success +15%",
+				"points": 10
+			},
+			{
+				"name": "Combine Success +25%",
+				"points": 15
+			},
+			{
+				"name": "Combine Success +45%",
+				"points": 20
+			}
+		]
+	},
+	{
+		"name": "Shot Mix",
+		"skills": [
+			{
+				"name": "Bullet Limit",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Alchemy",
+		"skills": [
+			{
+				"name": "Alchemy",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "FlyneGuide",
+		"skills": [
+			{
+				"name": "Felyne Tutor",
+				"points": 10
+			},
+			{
+				"name": "Felyne Mentor",
+				"points": 15
+			}
+		]
+	},
+	{
+		"name": "Flyne Atk",
+		"skills": [
+			{
+				"name": "Felyne Attack Up",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Flyne Def",
+		"skills": [
+			{
+				"name": "Felyne Defence Up",
+				"points": 10
+			}
+		]
+	},
+	{
+		"name": "Torso Inc",
+		"skills": []
+	}
+]
