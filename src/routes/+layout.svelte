@@ -33,7 +33,7 @@
 		<p class="mt-1 text-center text-xs text-zinc-500">
 			<span class="mr-1">Enjoying the project?</span>
 			<a
-				href="https://github.com/RogelRC/mhp3csc"
+				href="https://github.com/RogelRC/mhfucsc"
 				target="_blank"
 				rel="noopener noreferrer"
 				class="text-emerald-400 hover:text-emerald-300 hover:underline"

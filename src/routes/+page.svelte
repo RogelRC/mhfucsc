@@ -446,7 +446,7 @@
 	/>
 </svelte:head>
 
-<div class="min-h-screen overflow-x-clip bg-zinc-950 text-zinc-100">
+<div class="flex min-h-screen flex-col overflow-x-clip bg-zinc-950 text-zinc-100">
 	<header class="border-b border-zinc-800 bg-zinc-900/60">
 		<div class="mx-auto flex max-w-7xl items-center gap-3 px-4 py-4">
 			<div
@@ -464,7 +464,7 @@
 		</div>
 	</header>
 
-	<main class="mx-auto max-w-7xl px-4 py-6">
+	<main class="mx-auto w-full max-w-7xl flex-1 px-4 py-6">
 		<div class="grid gap-6 lg:grid-cols-[400px_1fr]">
 			<aside id="search-form" class="min-w-0 space-y-5">
 				<section class="rounded-lg border border-zinc-800 bg-zinc-900 p-4">
