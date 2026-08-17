@@ -3,8 +3,8 @@
 > An advanced armor set calculator for **Monster Hunter Freedom Unite** (PSP).
 
 [![Production](https://img.shields.io/badge/Live-https%3A%2F%2Fmhfucsc.vercel.app-blue?style=flat-square&logo=vercel&logoColor=white&label=Production)](https://mhfucsc.vercel.app/)
-[![Visitors](https://mhfucsc.vercel.app/api/analytics/visitors.svg)](https://vercel.com/dashboard)
-[![Page Views](https://mhfucsc.vercel.app/api/analytics/pageviews.svg)](https://vercel.com/dashboard)
+[![Visitors](https://mhfucsc.vercel.app/api/analytics/visitors.svg?refresh=1)](https://mhfucsc.vercel.app/api/analytics)
+[![Page Views](https://mhfucsc.vercel.app/api/analytics/pageviews.svg?refresh=1)](https://mhfucsc.vercel.app/api/analytics)
 
 **MHFU Armor Set Search** is a client-side tool that finds every armor set that activates the skills you want. Pick your skill targets, weapon slots and hunter type, and the built-in search engine enumerates all viable combinations — with decorations, materials, defense and resistance breakdowns.
 
@@ -34,8 +34,8 @@ Badges below are generated on the fly from the [Vercel Web Analytics API](https:
 
 | Metric                        | Badge                                                                                                             |
 | ----------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| **Visitors** (last 30 days)   | [![Visitors](https://mhfucsc.vercel.app/api/analytics/visitors.svg)](https://mhfucsc.vercel.app/api/analytics)    |
-| **Page views** (last 30 days) | [![Page Views](https://mhfucsc.vercel.app/api/analytics/pageviews.svg)](https://mhfucsc.vercel.app/api/analytics) |
+| **Visitors** (last 30 days)   | [![Visitors](https://mhfucsc.vercel.app/api/analytics/visitors.svg?refresh=1)](https://mhfucsc.vercel.app/api/analytics)    |
+| **Page views** (last 30 days) | [![Page Views](https://mhfucsc.vercel.app/api/analytics/pageviews.svg?refresh=1)](https://mhfucsc.vercel.app/api/analytics) |
 
 The raw data is also available as JSON at [`/api/analytics`](https://mhfucsc.vercel.app/api/analytics).
 
