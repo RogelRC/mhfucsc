@@ -474,10 +474,10 @@
 		]
 	},
 	{
-		"name": "Drawn Crit",
+		"name": "Sword Draw",
 		"skills": [
 			{
-				"name": "Unsheathed Atk Crit",
+				"name": "Art of Unsheathing",
 				"points": 10
 			}
 		]
@@ -849,14 +849,14 @@
 		]
 	},
 	{
-		"name": "Fast Chrge",
+		"name": "Focus",
 		"skills": [
 			{
-				"name": "Distraction",
+				"name": "Distracted",
 				"points": -10
 			},
 			{
-				"name": "Concentration",
+				"name": "Focus",
 				"points": 10
 			}
 		]
@@ -1064,22 +1064,22 @@
 		]
 	},
 	{
-		"name": "Technique",
+		"name": "Constitutn",
 		"skills": [
 			{
-				"name": "Defensive Maneuvers -2",
+				"name": "Constitution -2",
 				"points": -15
 			},
 			{
-				"name": "Defensive Maneuvers -1",
+				"name": "Constitution -1",
 				"points": -10
 			},
 			{
-				"name": "Defensive Maneuvers +1",
+				"name": "Constitution +1",
 				"points": 10
 			},
 			{
-				"name": "Defensive Maneuvers +2",
+				"name": "Constitution +2",
 				"points": 15
 			}
 		]
@@ -1219,7 +1219,7 @@
 		]
 	},
 	{
-		"name": "BombStrUp",
+		"name": "Bomber",
 		"skills": [
 			{
 				"name": "Bomber",
@@ -1323,7 +1323,7 @@
 		]
 	},
 	{
-		"name": "FlyneGuide",
+		"name": "ComrdGuide",
 		"skills": [
 			{
 				"name": "Felyne Tutor",
@@ -1336,7 +1336,7 @@
 		]
 	},
 	{
-		"name": "Flyne Atk",
+		"name": "Felyne Atk",
 		"skills": [
 			{
 				"name": "Felyne Attack Up",
@@ -1345,7 +1345,7 @@
 		]
 	},
 	{
-		"name": "Flyne Def",
+		"name": "Felyne Def",
 		"skills": [
 			{
 				"name": "Felyne Defence Up",

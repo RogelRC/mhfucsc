@@ -17,6 +17,39 @@ import { join } from 'node:path';
 const dataDir = process.argv[2] || '/tmp/mhfu-data';
 const outDir = process.argv[3] || join(import.meta.dirname, '..', 'src', 'mhfu_json');
 
+// ---------------------------------------------------------------------------
+// MHFU skill tree name mapping: Athena's ASS internal names → wiki names
+// ---------------------------------------------------------------------------
+
+const TREE_NAME_MAP = {
+	'Technique': 'Constitutn',
+	'Fast Chrge': 'Focus',
+	'BombStrUp': 'Bomber',
+	'Flyne Atk': 'Felyne Atk',
+	'Flyne Def': 'Felyne Def',
+	'FlyneGuide': 'ComrdGuide',
+	'Drawn Crit': 'Sword Draw',
+};
+
+// MHFU skill name mapping: old name → new name (within their tree)
+const SKILL_NAME_MAP = {
+	'Concentration': 'Focus',
+	'Distraction': 'Distracted',
+	'Unsheathed Atk Crit': 'Art of Unsheathing',
+	'Defensive Maneuvers +2': 'Constitution +2',
+	'Defensive Maneuvers +1': 'Constitution +1',
+	'Defensive Maneuvers -1': 'Constitution -1',
+	'Defensive Maneuvers -2': 'Constitution -2',
+};
+
+function mapTreeName(name) {
+	return TREE_NAME_MAP[name] ?? name;
+}
+
+function mapSkillName(name) {
+	return SKILL_NAME_MAP[name] ?? name;
+}
+
 console.log(`Reading data from: ${dataDir}`);
 console.log(`Writing output to: ${outDir}`);
 
@@ -123,6 +156,22 @@ function extractSkills() {
 		abilities.push(current);
 	}
 
+	// Apply name mappings and add missing MHFU skill trees
+	// (Athena's ASS doesn't include Guts, Edge Master, Comrade trees)
+	for (const a of abilities) {
+		a.name = mapTreeName(a.name);
+		for (const sk of a.skills) {
+			sk.name = mapSkillName(sk.name);
+		}
+	}
+	for (const sk of skills) {
+		sk.skillTree = mapTreeName(sk.skillTree);
+		sk.name = mapSkillName(sk.name);
+	}
+
+	// Add MHFU skill trees missing from Athena's ASS data
+	// Only add trees that actually have armor/decoration data in the source files
+
 	// Build skill_trees.json
 	const skillTrees = abilities.map((a) => ({
 		name: a.name,
@@ -158,7 +207,9 @@ function parseHRField(field) {
 	const cleaned = field.replace(/!/g, '').replace(/"/g, '').trim();
 	if (cleaned === '' || cleaned === '0') return { hr: 0, special: false };
 	const num = parseInt(cleaned, 10);
-	return { hr: isNaN(num) ? 0 : num, special: field.includes('!') };
+	// Cap elder stars at 9 (MHFU village quests only go up to 9 stars)
+	const capped = isNaN(num) ? 0 : Math.min(num, 9);
+	return { hr: capped, special: field.includes('!') };
 }
 
 function parseSlots(field) {
@@ -246,7 +297,7 @@ function extractArmors() {
 					const skillName = f[skillIdx].replace(/"/g, '').trim();
 					const points = parseInt(f[pointIdx], 10) || 0;
 					if (skillName && skillName !== '') {
-						skills.push({ skillTree: skillName, points });
+						skills.push({ skillTree: mapTreeName(skillName), points });
 					}
 				}
 			}
@@ -340,7 +391,7 @@ function extractDecorations() {
 					// Handle special values like "7!" or "5!"
 					const points = parseInt(pointsStr.replace(/!/g, ''), 10) || 0;
 					if (skillName !== '') {
-						skills.push({ skillTree: skillName, points });
+						skills.push({ skillTree: mapTreeName(skillName), points });
 					}
 				}
 			}

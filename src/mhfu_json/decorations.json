@@ -66,7 +66,7 @@
 		"rarity": 4,
 		"slots": 3,
 		"hrRequired": 8,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "Attack",
@@ -231,7 +231,7 @@
 		"rarity": 4,
 		"slots": 1,
 		"hrRequired": 8,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "Faint",
@@ -318,7 +318,7 @@
 		"rarity": 4,
 		"slots": 1,
 		"hrRequired": 7,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "Paralysis",
@@ -467,7 +467,7 @@
 		"rarity": 4,
 		"slots": 1,
 		"hrRequired": 7,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "Poison",
@@ -739,7 +739,7 @@
 		"rarity": 4,
 		"slots": 1,
 		"hrRequired": 8,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "Snow Res",
@@ -850,7 +850,7 @@
 		"name": "Artisan Jewel",
 		"rarity": 4,
 		"slots": 1,
-		"hrRequired": 10,
+		"hrRequired": 9,
 		"elderStarRequired": 4,
 		"skills": [
 			{
@@ -970,7 +970,7 @@
 		"rarity": 4,
 		"slots": 3,
 		"hrRequired": 6,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "Fencing",
@@ -1006,7 +1006,7 @@
 		"name": "Razor Jewel",
 		"rarity": 4,
 		"slots": 1,
-		"hrRequired": 10,
+		"hrRequired": 9,
 		"elderStarRequired": 4,
 		"skills": [
 			{
@@ -1076,11 +1076,11 @@
 		"name": "Draw Jewel",
 		"rarity": 4,
 		"slots": 1,
-		"hrRequired": 10,
+		"hrRequired": 9,
 		"elderStarRequired": 8,
 		"skills": [
 			{
-				"skillTree": "Drawn Crit",
+				"skillTree": "Sword Draw",
 				"points": 1
 			},
 			{
@@ -1118,10 +1118,10 @@
 		"rarity": 4,
 		"slots": 2,
 		"hrRequired": 8,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
-				"skillTree": "Drawn Crit",
+				"skillTree": "Sword Draw",
 				"points": 3
 			},
 			{
@@ -1154,11 +1154,11 @@
 		"elderStarRequired": 4,
 		"skills": [
 			{
-				"skillTree": "Fast Chrge",
+				"skillTree": "Focus",
 				"points": 1
 			},
 			{
-				"skillTree": "Technique",
+				"skillTree": "Constitutn",
 				"points": -1
 			}
 		],
@@ -1196,14 +1196,14 @@
 		"rarity": 4,
 		"slots": 3,
 		"hrRequired": 9,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
-				"skillTree": "Fast Chrge",
+				"skillTree": "Focus",
 				"points": 4
 			},
 			{
-				"skillTree": "Technique",
+				"skillTree": "Constitutn",
 				"points": -2
 			}
 		],
@@ -1480,7 +1480,7 @@
 		"rarity": 4,
 		"slots": 3,
 		"hrRequired": 6,
-		"elderStarRequired": 57,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "Guard Up",
@@ -1517,7 +1517,7 @@
 		"rarity": 4,
 		"slots": 2,
 		"hrRequired": 7,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "Guard Up",
@@ -1883,7 +1883,7 @@
 		"rarity": 4,
 		"slots": 3,
 		"hrRequired": 9,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "NormalS Up",
@@ -1953,7 +1953,7 @@
 		"rarity": 4,
 		"slots": 3,
 		"hrRequired": 9,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "PierceS Up",
@@ -2023,7 +2023,7 @@
 		"rarity": 4,
 		"slots": 3,
 		"hrRequired": 7,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "PelletS Up",
@@ -2088,7 +2088,7 @@
 		"name": "PierceBonusJewel",
 		"rarity": 4,
 		"slots": 1,
-		"hrRequired": 10,
+		"hrRequired": 9,
 		"elderStarRequired": 4,
 		"skills": [
 			{
@@ -2212,7 +2212,7 @@
 				"points": 1
 			},
 			{
-				"skillTree": "Fast Chrge",
+				"skillTree": "Focus",
 				"points": -1
 			}
 		],
@@ -2249,7 +2249,7 @@
 				"points": 3
 			},
 			{
-				"skillTree": "Fast Chrge",
+				"skillTree": "Focus",
 				"points": -1
 			}
 		],
@@ -2278,7 +2278,7 @@
 		"name": "RazorCoating Jewel",
 		"rarity": 4,
 		"slots": 1,
-		"hrRequired": 10,
+		"hrRequired": 9,
 		"elderStarRequired": 4,
 		"skills": [
 			{
@@ -2352,7 +2352,7 @@
 				"points": 1
 			},
 			{
-				"skillTree": "Fast Chrge",
+				"skillTree": "Focus",
 				"points": -1
 			}
 		],
@@ -2389,7 +2389,7 @@
 				"points": 3
 			},
 			{
-				"skillTree": "Fast Chrge",
+				"skillTree": "Focus",
 				"points": -1
 			}
 		],
@@ -2497,7 +2497,7 @@
 		"rarity": 4,
 		"slots": 3,
 		"hrRequired": 6,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "Loading",
@@ -2633,7 +2633,7 @@
 		"rarity": 4,
 		"slots": 2,
 		"hrRequired": 8,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "Spc Attack",
@@ -2703,7 +2703,7 @@
 		"rarity": 4,
 		"slots": 3,
 		"hrRequired": 9,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "ElementAtk",
@@ -2743,7 +2743,7 @@
 		"elderStarRequired": 1,
 		"skills": [
 			{
-				"skillTree": "BombStrUp",
+				"skillTree": "Bomber",
 				"points": 2
 			}
 		],
@@ -2868,7 +2868,7 @@
 		"rarity": 4,
 		"slots": 1,
 		"hrRequired": 7,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "Hunger",
@@ -3000,7 +3000,7 @@
 		"rarity": 4,
 		"slots": 3,
 		"hrRequired": 9,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "Cooking",
@@ -3151,11 +3151,11 @@
 		"name": "Stamina Jewel",
 		"rarity": 4,
 		"slots": 1,
-		"hrRequired": 10,
+		"hrRequired": 9,
 		"elderStarRequired": 4,
 		"skills": [
 			{
-				"skillTree": "Technique",
+				"skillTree": "Constitutn",
 				"points": 1
 			},
 			{
@@ -3184,11 +3184,11 @@
 		"name": "Body Arts Jewel",
 		"rarity": 4,
 		"slots": 2,
-		"hrRequired": 10,
+		"hrRequired": 9,
 		"elderStarRequired": 9,
 		"skills": [
 			{
-				"skillTree": "Technique",
+				"skillTree": "Constitutn",
 				"points": 3
 			},
 			{
@@ -3263,7 +3263,7 @@
 		"rarity": 4,
 		"slots": 1,
 		"hrRequired": 9,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "Protection",
@@ -3291,7 +3291,7 @@
 		"name": "Earplug Jewel",
 		"rarity": 4,
 		"slots": 1,
-		"hrRequired": 10,
+		"hrRequired": 9,
 		"elderStarRequired": 4,
 		"skills": [
 			{
@@ -3448,7 +3448,7 @@
 		"rarity": 4,
 		"slots": 3,
 		"hrRequired": 9,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "WindPress",
@@ -3694,7 +3694,7 @@
 		"rarity": 4,
 		"slots": 3,
 		"hrRequired": 9,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "Evade Inc",
@@ -3730,7 +3730,7 @@
 		"name": "Danger Jewel",
 		"rarity": 4,
 		"slots": 1,
-		"hrRequired": 10,
+		"hrRequired": 9,
 		"elderStarRequired": 4,
 		"skills": [
 			{
@@ -3754,6 +3754,43 @@
 				},
 				{
 					"name": "Wyvern Skull Shl",
+					"quantity": 1
+				}
+			]
+		]
+	},
+	{
+		"name": "Crisis Jewel",
+		"rarity": 4,
+		"slots": 3,
+		"hrRequired": 6,
+		"elderStarRequired": 6,
+		"skills": [
+			{
+				"skillTree": "Potential",
+				"points": 4
+			},
+			{
+				"skillTree": "Protection",
+				"points": -2
+			}
+		],
+		"recipes": [
+			[
+				{
+					"name": "LapislazuliJewel",
+					"quantity": 1
+				},
+				{
+					"name": "Gold Rajang Pelt",
+					"quantity": 1
+				},
+				{
+					"name": "Blood Red Horn",
+					"quantity": 1
+				},
+				{
+					"name": "Wht Monoblos Hrn",
 					"quantity": 1
 				}
 			]
@@ -3797,48 +3834,11 @@
 		]
 	},
 	{
-		"name": "Crisis Jewel",
-		"rarity": 4,
-		"slots": 3,
-		"hrRequired": 6,
-		"elderStarRequired": 6,
-		"skills": [
-			{
-				"skillTree": "Potential",
-				"points": 4
-			},
-			{
-				"skillTree": "Protection",
-				"points": -2
-			}
-		],
-		"recipes": [
-			[
-				{
-					"name": "LapislazuliJewel",
-					"quantity": 1
-				},
-				{
-					"name": "Gold Rajang Pelt",
-					"quantity": 1
-				},
-				{
-					"name": "Blood Red Horn",
-					"quantity": 1
-				},
-				{
-					"name": "Wht Monoblos Hrn",
-					"quantity": 1
-				}
-			]
-		]
-	},
-	{
 		"name": "Survivor Jewel",
 		"rarity": 4,
 		"slots": 1,
 		"hrRequired": 7,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "Survival",
@@ -3871,7 +3871,7 @@
 		"rarity": 4,
 		"slots": 2,
 		"hrRequired": 9,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "Survival",
@@ -4003,7 +4003,7 @@
 		"rarity": 4,
 		"slots": 2,
 		"hrRequired": 7,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "Everlastng",
@@ -4110,7 +4110,7 @@
 		"rarity": 4,
 		"slots": 3,
 		"hrRequired": 8,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "Wide Area",
@@ -4238,7 +4238,7 @@
 		"rarity": 4,
 		"slots": 3,
 		"hrRequired": 9,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "All Resist",
@@ -4557,7 +4557,7 @@
 		"rarity": 4,
 		"slots": 1,
 		"hrRequired": 7,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "Dragon Res",
@@ -4648,7 +4648,7 @@
 		"rarity": 4,
 		"slots": 1,
 		"hrRequired": 8,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "Heat Res",
@@ -4739,7 +4739,7 @@
 		"rarity": 4,
 		"slots": 1,
 		"hrRequired": 8,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "Cold Res",
@@ -4966,7 +4966,7 @@
 		"rarity": 4,
 		"slots": 3,
 		"hrRequired": 9,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "Carving",
@@ -5040,7 +5040,7 @@
 		"rarity": 4,
 		"slots": 2,
 		"hrRequired": 7,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
 				"skillTree": "Trapper",
@@ -5596,7 +5596,7 @@
 		"elderStarRequired": 8,
 		"skills": [
 			{
-				"skillTree": "FlyneGuide",
+				"skillTree": "ComrdGuide",
 				"points": 2
 			}
 		],
@@ -5637,7 +5637,7 @@
 		"elderStarRequired": 8,
 		"skills": [
 			{
-				"skillTree": "Flyne Atk",
+				"skillTree": "Felyne Atk",
 				"points": 2
 			}
 		],
@@ -5667,10 +5667,10 @@
 		"rarity": 4,
 		"slots": 1,
 		"hrRequired": 7,
-		"elderStarRequired": 10,
+		"elderStarRequired": 9,
 		"skills": [
 			{
-				"skillTree": "Flyne Def",
+				"skillTree": "Felyne Def",
 				"points": 2
 			}
 		],

@@ -121,7 +121,7 @@
 	},
 	{
 		"name": "Bomber",
-		"skillTree": "BombStrUp",
+		"skillTree": "Bomber",
 		"points": 10,
 		"tag": "Offensive"
 	},
@@ -178,6 +178,42 @@
 		"skillTree": "Cold Res",
 		"points": 15,
 		"tag": "Resistance"
+	},
+	{
+		"name": "Felyne Tutor",
+		"skillTree": "ComrdGuide",
+		"points": 10,
+		"tag": null
+	},
+	{
+		"name": "Felyne Mentor",
+		"skillTree": "ComrdGuide",
+		"points": 15,
+		"tag": null
+	},
+	{
+		"name": "Constitution -2",
+		"skillTree": "Constitutn",
+		"points": -15,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Constitution -1",
+		"skillTree": "Constitutn",
+		"points": -10,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Constitution +1",
+		"skillTree": "Constitutn",
+		"points": 10,
+		"tag": "Defensive"
+	},
+	{
+		"name": "Constitution +2",
+		"skillTree": "Constitutn",
+		"points": 15,
+		"tag": "Defensive"
 	},
 	{
 		"name": "Slow Life",
@@ -270,12 +306,6 @@
 		"tag": "Resistance"
 	},
 	{
-		"name": "Unsheathed Atk Crit",
-		"skillTree": "Drawn Crit",
-		"points": 10,
-		"tag": "Blademaster"
-	},
-	{
 		"name": "Element Atk Up",
 		"skillTree": "ElementAtk",
 		"points": 10,
@@ -366,18 +396,6 @@
 		"tag": "Resistance"
 	},
 	{
-		"name": "Distraction",
-		"skillTree": "Fast Chrge",
-		"points": -10,
-		"tag": "Bow"
-	},
-	{
-		"name": "Concentration",
-		"skillTree": "Fast Chrge",
-		"points": 10,
-		"tag": "Bow"
-	},
-	{
 		"name": "Calamity",
 		"skillTree": "Fate",
 		"points": -20,
@@ -406,6 +424,18 @@
 		"skillTree": "Fatigue",
 		"points": 10,
 		"tag": "Resistance"
+	},
+	{
+		"name": "Felyne Attack Up",
+		"skillTree": "Felyne Atk",
+		"points": 10,
+		"tag": null
+	},
+	{
+		"name": "Felyne Defence Up",
+		"skillTree": "Felyne Def",
+		"points": 10,
+		"tag": null
 	},
 	{
 		"name": "ESP",
@@ -450,28 +480,16 @@
 		"tag": "Treasure Hunting"
 	},
 	{
-		"name": "Felyne Attack Up",
-		"skillTree": "Flyne Atk",
-		"points": 10,
-		"tag": null
+		"name": "Distracted",
+		"skillTree": "Focus",
+		"points": -10,
+		"tag": "Bow"
 	},
 	{
-		"name": "Felyne Defence Up",
-		"skillTree": "Flyne Def",
+		"name": "Focus",
+		"skillTree": "Focus",
 		"points": 10,
-		"tag": null
-	},
-	{
-		"name": "Felyne Tutor",
-		"skillTree": "FlyneGuide",
-		"points": 10,
-		"tag": null
-	},
-	{
-		"name": "Felyne Mentor",
-		"skillTree": "FlyneGuide",
-		"points": 15,
-		"tag": null
+		"tag": "Bow"
 	},
 	{
 		"name": "Gathering -2",
@@ -1128,28 +1146,10 @@
 		"tag": "Blademaster"
 	},
 	{
-		"name": "Defensive Maneuvers -2",
-		"skillTree": "Technique",
-		"points": -15,
-		"tag": "Defensive"
-	},
-	{
-		"name": "Defensive Maneuvers -1",
-		"skillTree": "Technique",
-		"points": -10,
-		"tag": "Defensive"
-	},
-	{
-		"name": "Defensive Maneuvers +1",
-		"skillTree": "Technique",
+		"name": "Art of Unsheathing",
+		"skillTree": "Sword Draw",
 		"points": 10,
-		"tag": "Defensive"
-	},
-	{
-		"name": "Defensive Maneuvers +2",
-		"skillTree": "Technique",
-		"points": 15,
-		"tag": "Defensive"
+		"tag": "Blademaster"
 	},
 	{
 		"name": "TerrainDamageInc[Hi]",
